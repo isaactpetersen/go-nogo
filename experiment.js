@@ -95,7 +95,7 @@ var instructTimeThresh = 0 ///in seconds
 var credit_var = true
 
 // task specific variables
-var num_go_stim = 9 //per one no-go stim; ratio of go to no-go responses; default: 9:1 (i.e., 9/10 go trials) 
+var num_go_stim = 5 //per one no-go stim; ratio of go to no-go responses; 5:1 (i.e., 5/6 go trials) 
 var correct_responses = [
   ['go', 32],
   ['nogo', -1]
@@ -145,7 +145,7 @@ for (var i = 0; i < num_go_stim; i++) {
 }
 
 var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 5);
-var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 35); // # of times block of go and no-go trials is repeated; default: 1 go + 9 no-go x 35 = 350 test trials
+var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 50); // # of times block of go and no-go trials is repeated; default: 5 go + 1 no-go x 50 = 300 test trials
 
 
 
