@@ -1,5 +1,7 @@
-# Experiment Factory Experiment
+# Go/no-go
 
-Hi Friend! This is an Experiment that is friendly for use in the [Experiment Factory](https://expfactory.github.io/expfactory). You can run it locally by putting these files in a web server, or use the Experiment Factory to generate a reproducible container. Check out the documentation above for more information, or [post an issue](https://www.github.com/expfactory/expfactory/issues) if you have any questions.
+This jsPsych code for a go/no-go task was adapted from code from the [Experiment Factory](https://expfactory.github.io/expfactory):
 
-![https://expfactory.github.io/expfactory/img/expfactoryticketyellow.png](https://expfactory.github.io/expfactory/img/expfactoryticketyellow.png)
+- https://www.github.com/expfactory-experiments/go-nogo
+- Reference: http://www.sciencedirect.com/science/article/pii/0001691869900651
+- Contributors: Ian Eisenberg, Zeynep Enkavi, Patrick Bissett, Vanessa Sochat, Russell Poldrack
